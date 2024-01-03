@@ -1,0 +1,20 @@
+.heading {
+  text-align: center;
+  font-family: "Edu TAS Beginner", cursive;
+}
+.main {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Edu TAS Beginner", cursive;
+}
+.country {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
